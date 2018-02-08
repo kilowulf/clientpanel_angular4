@@ -80,7 +80,7 @@ export const firebaseConfig = {
     RouterModule.forRoot(appRoutes),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFirestoreModule,
-    FlashMessagesModule.forRoot()
+    FlashMessagesModule
   ],
   providers: [
     AngularFireAuth,
